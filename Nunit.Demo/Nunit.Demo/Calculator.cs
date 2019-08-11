@@ -14,7 +14,7 @@ namespace Nunit.Demo
             // todo
         }
 
-        public int Substraction(int first, int second)
+        public int Subtraction(int first, int second)
         {
             if (first < second)
                 throw new ArgumentException($"First number {first} is less than second number {second}");

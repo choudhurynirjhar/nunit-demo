@@ -27,9 +27,9 @@ namespace Nunit.Demo.Test
         }
 
         [Test, Order(1)]
-        public void Test_Substraction_Argument_Exception() {
-            Assert.Catch<SystemException>(() => calc.Substraction(4, 5));
-            Assert.Throws<ArgumentException>(() => calc.Substraction(4, 5));
+        public void Test_Subtraction_Argument_Exception() {
+            Assert.Catch<SystemException>(() => calc.Subtraction(4, 5));
+            Assert.Throws<ArgumentException>(() => calc.Subtraction(4, 5));
         }
 
         [TestCase(1,2,3), Order(3)]
